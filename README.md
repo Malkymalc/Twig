@@ -3,7 +3,7 @@
 ## Case Where Positive Integer Greater Than Array Length
 Firstly, no mentioned was made of the case where the positive integer is larger than the length of the array. 
 
-Since `array.length >= positive integer` is not explicitly specified as a requirement, I have written code to change the positive integer to be equal to `array.length` in these cases, with a warning, but not a breaking error emitted.
+Since `array.length >= positive integer` is not explicitly specified as a requirement, I have written code to change the positive integer to be equal to `array.length` in these cases, with a warning message emitted to the console.
 
 
 ## Interpretation of Requirements
